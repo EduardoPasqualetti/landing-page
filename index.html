@@ -12,12 +12,14 @@
 <body>
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navmenu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
+            <img src="../Projeto/assets/Icons/menu_hamburguer.svg.svg" id="menu-mobile" alt="abre o menu online" 
+            onclick="mostrarMenu()" >
         </div>
     </header>
 
@@ -89,6 +91,13 @@
             <p>Copyright © 2020 - Escola Senai de Informática</p>
         </div>
     </footer>
+
+    <script>
+            function mostrarMenu() {
+                document.getElementById("navmenu").classList.toggle("mostrarMenu");
+            }
+    </script>
+
 </body>
 
 </html> 
