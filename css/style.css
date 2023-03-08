@@ -42,6 +42,10 @@ header .header-flex {
     height: 100%;
 }
 
+header .header-flex img {
+    display: none;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -249,6 +253,7 @@ main .endereco article {
     font-family: 'Courier New', Courier, monospace;
 
 }
+
 
 main .endereco h1 {
     font-size: 30px;
