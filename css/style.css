@@ -345,13 +345,22 @@ footer div {
     main .banner #banner-flex {
         max-width: 340px;
         border: 1px solid yellow;
+ 
     }
 
-    main .banner-flex h1 {
+    main #banner-flex h1 {
         font-size: 40px;
     }
 
     main .banner p {
         display: none;
+    }
+
+    main .banner #linha {
+        display: none;
+    }
+
+    main #banner-flex h2 {
+        font-size: 30px;
     }
 }
