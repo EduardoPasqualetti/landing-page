@@ -314,7 +314,10 @@ footer div {
     footer {
         display: none;
     }
-   
+    
+    /* main {
+        display: none;
+    } */
 
 
     header #menu-mobile {
