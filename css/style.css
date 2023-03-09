@@ -315,10 +315,7 @@ footer div {
         display: none;
     }
     
-    /* main {
-        display: none;
-    } */
-
+   
 
     header #menu-mobile {
         display: block;
@@ -341,7 +338,10 @@ footer div {
     }
 
     header nav a {
+        width: 180px;
         border-left: 2px dotted #ffffff;
+        border-radius: 0;
+        text-align: center;
     }
 
     /* BANNER */
